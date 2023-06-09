@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\goekh\\OneDrive\\Sonstiges\\Dateien vom MacBook\\Minecraft\\Soup-Server\\spigot.jar"
+    ]
+}

@@ -1,0 +1,9 @@
+name: Lobby
+version: 0.1
+author: Kiligo_
+main: net.kiligo.lobby.Lobby
+
+commands:
+    setspawn:
+    addnpc:
+    troll:
