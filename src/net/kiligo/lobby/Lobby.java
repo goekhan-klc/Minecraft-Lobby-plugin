@@ -1,5 +1,7 @@
 package net.kiligo.lobby;
 
+import org.bukkit.Bukkit;
+import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import net.kiligo.commands.NPCCommand;
@@ -61,11 +63,6 @@ public class Lobby extends JavaPlugin {
 		FakePlayer.loadNPCs();
 		ProfileInventory.registerHeads();
 		
-		if(CloudAPI.getInstance().getServerId().contains("Silentlobby")) {
-			Li.setSilent(true);
-		} else {
-			Li.setSilent(false);
-		}
 		
 		net.kiligo.libary.Scoreboard.updater();
 		
